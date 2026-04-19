@@ -9,8 +9,8 @@ const projects = [
     gradient: 'from-rose-500 via-pink-500 to-red-500',
     icon: '❤️',
     features: ['Advanced Search', 'Profile Listings', 'Mobile-First UI', 'Performance Optimized'],
-    github: 'https://github.com/amansharma073',
-    live: '#',
+    github: 'https://github.com/amansharma073/Heart2Help',
+    live: 'https://heart2-help-rust.vercel.app',
   },
   {
     title: 'SkillSphere',
@@ -31,8 +31,8 @@ const projects = [
     gradient: 'from-green-500 via-emerald-500 to-teal-500',
     icon: '🌾',
     features: ['Product Showcase', 'Responsive Layout', 'Structured UI', 'Social Section'],
-    github: 'https://github.com/amansharma073',
-    live: '#',
+    github: 'https://github.com/amansharma073/farmer-world',
+    live: 'https://farmer-world-ten.vercel.app',
   },
 ];
 
