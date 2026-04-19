@@ -21,7 +21,7 @@ const projects = [
     icon: '🎯',
     features: ['Category Filters', 'User Profiles', 'Search Feature', 'Responsive Design'],
     github: 'https://github.com/amansharma073/SkillSwap',
-    live: 'https://skill-swap-one-ivory.vercel.app/',
+    live: 'https://skillsphere-one-ivory.vercel.app/',
   },
   {
     title: 'Farm World',
