@@ -20,8 +20,8 @@ const projects = [
     gradient: 'from-violet-500 via-purple-500 to-indigo-500',
     icon: '🎯',
     features: ['Category Filters', 'User Profiles', 'Search Feature', 'Responsive Design'],
-    github: 'https://github.com/amansharma073',
-    live: '#',
+    github: 'https://github.com/amansharma073/SkillSwap',
+    live: 'https://skill-swap-one-ivory.vercel.app/',
   },
   {
     title: 'Farm World',
