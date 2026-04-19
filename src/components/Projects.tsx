@@ -20,7 +20,7 @@ const projects = [
     gradient: 'from-violet-500 via-purple-500 to-indigo-500',
     icon: '🎯',
     features: ['Category Filters', 'User Profiles', 'Search Feature', 'Responsive Design'],
-    github: 'https://github.com/amansharma073/SkillSwap',
+    github: 'https://github.com/amansharma073/SkillSphere',
     live: 'https://skillsphere-one-ivory.vercel.app/',
   },
   {
