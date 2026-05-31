@@ -2,16 +2,37 @@ import { useReveal } from '../hooks/useReveal';
 
 const projects = [
   {
-    title: 'Heart2Help',
-    subtitle: 'Caregiving Platform',
-    desc: 'Built a responsive caregiving platform with advanced search filters and profile listings, improving usability and mobile experience.',
-    tags: ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'CSS'],
-    gradient: 'from-rose-500 via-pink-500 to-red-500',
-    icon: '❤️',
-    features: ['Advanced Search', 'Profile Listings', 'Mobile-First UI', 'Performance Optimized'],
-    github: 'https://github.com/amansharma073/Heart2Help',
-    live: 'https://heart2-help-rust.vercel.app',
-  },
+  title: 'Movie Search App',
+  subtitle: 'Movie Discovery Platform',
+  desc: 'Developed a movie search application using the OMDb API with dynamic search, movie recommendations, favorites, and dark/light mode support.',
+  tags: ['JavaScript', 'HTML', 'CSS', 'OMDb API'],
+  gradient: 'from-purple-500 via-pink-500 to-red-500',
+  icon: '🎬',
+  features: [
+    'Movie Search',
+    'OMDb API Integration',
+    'Favorites System',
+    'Dark/Light Mode'
+  ],
+  github: 'https://github.com/amansharma073/Movie-Search-App',
+  live: 'https://movie-search-app-orpin.vercel.app/'
+},
+  {
+  title: 'Expense Tracker',
+  subtitle: 'Personal Finance Management',
+  desc: 'Built an expense tracking application to manage income, expenses, and balance with real-time updates and persistent data storage.',
+  tags: ['JavaScript', 'HTML', 'CSS', 'LocalStorage'],
+  gradient: 'from-blue-500 via-cyan-500 to-sky-500',
+  icon: '💰',
+  features: [
+    'Income & Expense Tracking',
+    'Real-time Balance Updates',
+    'LocalStorage Support',
+    'Transaction History'
+  ],
+  github: 'https://github.com/amansharma073/Expense-Tracker',
+  live: 'https://expense-tracker-dun-rho.vercel.app/'
+},
 {
   title: 'Weather App',
   subtitle: 'Real-Time Weather Application',
@@ -23,17 +44,7 @@ const projects = [
   github: 'https://github.com/amansharma073/weather-app',
   live: 'https://weather-app-phi-seven-72.vercel.app/',
 },
-  {
-    title: 'Farm World',
-    subtitle: 'Farmer-to-Customer Platform',
-    desc: 'Created a farmer-to-customer platform with a responsive layout and structured UI, improving product browsing and user experience.',
-    tags: ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'CSS'],
-    gradient: 'from-green-500 via-emerald-500 to-teal-500',
-    icon: '🌾',
-    features: ['Product Showcase', 'Responsive Layout', 'Structured UI', 'Social Section'],
-    github: 'https://github.com/amansharma073/farmer-world',
-    live: 'https://farmer-world-ten.vercel.app',
-  },
+  
 ];
 
 export default function Projects({ dark }: { dark: boolean }) {
